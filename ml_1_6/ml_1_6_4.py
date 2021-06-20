@@ -17,7 +17,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from sklearn.metrics import roc_auc_score, roc_curve
 
-path = r'C:\Users\e.filonova\PycharmProjects\ml_1\ml_1_6\\train.csv'
+path = r'/home/chelli/PycharmProjects/ml_1_6/train.csv'
 df = pd.read_csv(path)
 
 # обработка df
